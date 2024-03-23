@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "Codeforces Theme Changer",
+    "version": "1.0",
+    "description": "Change the theme of Codeforces",
+    "permissions": ["activeTab", "storage"],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/icon16.png",
+            "48": "images/icon48.png",
+            "128": "images/icon128.png"
+        }
+    },
+    "web_accessible_resources": [
+        "themes/*.css"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://codeforces.com/*"],
+            "css": ["themes/default.css"],
+            "js": ["scripts/content.js"]
+        }
+    ]
+}
