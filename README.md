@@ -32,6 +32,20 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 ## Sample Pictures:
 
+### Popup:
+
+![alt text](/sample/imagep.png)
+
+### Gruvbox
+ ![alt text](/sample/image.png)
+ ![alt text](/sample/image-1.png)
+ ![alt text](/sample/image-2.png)
+
+### Dark-Theme
+![alt text](/sample/image-3.png)
+![alt text](/sample/image-4.png)
+![alt text](/sample/image-5.png)
+
 
 
 
