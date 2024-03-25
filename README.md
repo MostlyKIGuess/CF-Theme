@@ -11,7 +11,7 @@ This is a Chrome extension that allows you to change the theme of Codeforces. It
 ## Installation
 
 ### For Firefox user:
-1. Just install it from this link and you are good to go:
+1. Just install it from this [link](https://addons.mozilla.org/en-US/firefox/addon/codeforces-theme-changer/) and you are good to go.
 
 
 ### For chrome users:
