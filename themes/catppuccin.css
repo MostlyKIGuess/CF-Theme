@@ -109,7 +109,7 @@ div.ttypography .bordertable thead th:not(:last-child) {
     color: #ffffff !important;
 }
 
-.table-form.no-autofocus td field{
+.table-form.no-autofocus td {
     background-color: #2e2e2e !important;
     color: #ffffff !important;
 
